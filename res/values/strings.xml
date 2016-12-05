@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">CS496_Final_Project</string>
+    <string name="scheme">https</string>
+    <string name="host">cs496finalproject-150703.appspot.com</string>
+</resources>
