@@ -659,7 +659,7 @@ public class ImageEdit extends AppCompatActivity {
         new Thread(new Runnable() {
             @Override
             public void run() {
-                HttpUrl url = buildURL("delete_person",userKey,photoKey);//url call to delete person
+                HttpUrl url = buildURL("delete_photo",userKey,photoKey);//url call to delete person
                 Headers headers = getHeader();
                 Request request = new Request.Builder()
                         .url(url)
